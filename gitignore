@@ -1,0 +1,30 @@
+# --- Vivado Ignore List  ---
+
+# Carpetas basura de Vivado (Pesadas e inútiles en la nube)
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.nav/
+*.str/
+.Xil/
+
+# Archivos de registro y temporales (Diarios)
+*.jou
+*.log
+*.vdi
+*.dcp
+*.usage
+*.str
+
+# Archivos de Windows raros
+Thumbs.db
+Desktop.ini
+
+# --- Lo que SÍ queremos (Excepciones explícitas por si acaso) ---
+!*.xpr
+!*.vhd
+!*.xdc
+!*.pdf
+!README.md
