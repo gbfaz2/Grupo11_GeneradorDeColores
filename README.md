@@ -149,3 +149,4 @@ Si un compañero ha subido cambios al `main` (por ejemplo, el TOP actualizado) y
 1.  **El archivo `.gitignore` es intocable:** Este archivo evita que subamos basura al servidor. No lo borres ni le cambies el nombre.
 2.  **Conflictos:** Si al subir cambios Git te avisa de un "CONFLICT", **no borres nada**. Significa que dos personas han tocado la misma línea de código. Avisad al grupo para resolverlo juntos.
 3.  **Orden:** Los archivos fuente (`.vhd`) deben estar siempre dentro de la carpeta `src` (o `sources_1/new`). No creéis archivos sueltos en la raíz del proyecto.
+3.  **Orden:** Los archivos fuente (`.vhd`) deben estar siempre dentro de la carpeta `src` (o `sources_1/new`). No creéis archivos sueltos en la raíz del proyecto.
