@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_aceleracion_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="pkg_rgb_types" />
+            <top_module name="tb_aceleracion" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="700.001 ns"></ZoomEndTime>
+      <Cursor1Time time="700.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_aceleracion/s_clk" type="logic">
+      <obj_property name="ElementShortName">s_clk</obj_property>
+      <obj_property name="ObjectShortName">s_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/s_rst" type="logic">
+      <obj_property name="ElementShortName">s_rst</obj_property>
+      <obj_property name="ObjectShortName">s_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/s_btn_up_pulse" type="logic">
+      <obj_property name="ElementShortName">s_btn_up_pulse</obj_property>
+      <obj_property name="ObjectShortName">s_btn_up_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/s_btn_up_state" type="logic">
+      <obj_property name="ElementShortName">s_btn_up_state</obj_property>
+      <obj_property name="ObjectShortName">s_btn_up_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/s_btn_down_pulse" type="logic">
+      <obj_property name="ElementShortName">s_btn_down_pulse</obj_property>
+      <obj_property name="ObjectShortName">s_btn_down_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/s_btn_down_state" type="logic">
+      <obj_property name="ElementShortName">s_btn_down_state</obj_property>
+      <obj_property name="ObjectShortName">s_btn_down_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/s_sw" type="array">
+      <obj_property name="ElementShortName">s_sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/s_salida" type="array">
+      <obj_property name="ElementShortName">s_salida</obj_property>
+      <obj_property name="ObjectShortName">s_salida</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aceleracion/C_CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">C_CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">C_CLK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>
