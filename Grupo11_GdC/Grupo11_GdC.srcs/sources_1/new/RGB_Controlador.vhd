@@ -42,8 +42,8 @@ ARCHITECTURE BEHAVIORAL OF RGB_CONTROLADOR IS
     signal s_state_down : t_fsm_state;
 
     -- Temporizacion (Fclk = 100 MHz)
-    constant C_DELAY_WAIT  : integer :=50_000_000; -- 0.5s inicio            ////Para testbech de aceleración se usa 20
-    constant C_DELAY_TURBO : integer := 5; --5_000_000;  -- 0.05s repeticion ////Para testbench de aceleración se usa 5
+    constant C_DELAY_WAIT  : integer :=50_000_000; --50_000_000  -- 0.5s inicio            ////Para testbech de aceleración se usa 20
+    constant C_DELAY_TURBO : integer := 5_000_000; --5_000_000;  -- 0.05s repeticion       ////Para testbench de aceleración se usa 5
 
     -- Registros internos
     signal r_rojo  : unsigned(7 downto 0) := (others => '0');
