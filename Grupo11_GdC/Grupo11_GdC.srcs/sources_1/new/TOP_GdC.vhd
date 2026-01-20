@@ -5,7 +5,7 @@ USE WORK.PKG_RGB_TYPES.ALL;
 ENTITY TOP_GdC IS
     PORT ( 
         CLK100MHZ : IN  STD_LOGIC;
-        CPU_RESETN: IN  STD_LOGIC;  -- Mapeado a BTNC (N17) en tu XDC
+        CPU_RESETN: IN  STD_LOGIC;
         
         -- Entradas usuario
         BTNU      : IN  STD_LOGIC; 
@@ -45,11 +45,6 @@ ARCHITECTURE BEHAVIORAL OF TOP_GdC IS
     signal s_comp_gamma_r, s_comp_gamma_g, s_comp_gamma_b : std_logic_vector(7 downto 0);
 
 BEGIN
-
-    -- CORRECCIÓN IMPORTANTE AQUÍ:
-    -- Como usas el pin N17 (BTNC) en el XDC, es lógica positiva.
-    -- Si lo inviertes con NOT, el sistema vive en Reset eterno.
-    -- Quitamos el NOT para que funcione con el botón del centro.
     s_rst <= CPU_RESETN; 
 
     -- Prescaler
