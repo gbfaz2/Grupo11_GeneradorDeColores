@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_PWM_SSDM_LFSR_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_PWM_SSDM_LFSR" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,705.001 ns"></ZoomEndTime>
+      <Cursor1Time time="4,705.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="123"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/TB_PWM_SSDM_LFSR/CLK_PWM" type="logic">
+      <obj_property name="ElementShortName">CLK_PWM</obj_property>
+      <obj_property name="ObjectShortName">CLK_PWM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PWM_SSDM_LFSR/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PWM_SSDM_LFSR/DUTY_CYCLE_IN" type="array">
+      <obj_property name="ElementShortName">DUTY_CYCLE_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DUTY_CYCLE_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PWM_SSDM_LFSR/PWM_OUT" type="logic">
+      <obj_property name="ElementShortName">PWM_OUT</obj_property>
+      <obj_property name="ObjectShortName">PWM_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PWM_SSDM_LFSR/TBSIMENDED" type="logic">
+      <obj_property name="ElementShortName">TBSIMENDED</obj_property>
+      <obj_property name="ObjectShortName">TBSIMENDED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PWM_SSDM_LFSR/TBPERIOD" type="other">
+      <obj_property name="ElementShortName">TBPERIOD</obj_property>
+      <obj_property name="ObjectShortName">TBPERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PWM_SSDM_LFSR/G_WIDTH" type="other">
+      <obj_property name="ElementShortName">G_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_WIDTH</obj_property>
+   </wvobject>
+</wave_config>
